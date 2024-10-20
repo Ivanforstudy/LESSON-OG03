@@ -6,7 +6,11 @@ SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Игра тир")
+<<<<<<< Updated upstream
 icon = pygame.image.load("IMG/233.jpg")
+=======
+icon = pygame.image.load("LESSON-OG03/IMG/234.png")
+>>>>>>> Stashed changes
 
 pygame.display.set_icon(icon)
 target_img =pygame.image.load("IMG/T234.png")
