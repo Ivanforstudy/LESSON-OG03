@@ -9,15 +9,13 @@ pygame.display.set_caption("Игра тир")
 
 icon = pygame.image.load("IMG/233.jpg")
 
-
-
 pygame.display.set_icon(icon)
-target_img =pygame.image.load("IMG/T234.png")
+target_img = pygame.image.load("IMG/T234.png")
 target_width = 100
 target_height = 100
 target_x = random.randint(0, SCREEN_WIDTH - target_width)
 target_y = random.randint(0, SCREEN_HEIGHT - target_height)
-color = (random.randint(0,255), random.randint(0, 255), random.randint(0, 255))
+color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
 
 running = True
 while running:
@@ -32,9 +30,3 @@ while running:
                 target_y = random.randint(0, SCREEN_HEIGHT - target_height)
     screen.blit(target_img, (target_x, target_y))
     pygame.display.update()
-
-
-
-
-
-pygame.quit()
